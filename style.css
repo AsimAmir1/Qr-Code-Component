@@ -1,0 +1,50 @@
+body{
+background:hsl(212, 45%, 89%);
+}
+
+@font-face{
+font-family:'outfit';
+src:url(Outfit-Bold.ttf);
+font-style:normal;
+font-weight:700;
+}
+
+@font-face{
+font-family:'outfit';
+src:url(Outfit-Regular.ttf);
+font-style:normal;
+font-weight:400;
+}
+
+.qr-box{
+margin:80px 20px;
+padding:15px;
+background:#fff;
+border-radius:20px;
+}
+
+.qr-box img{
+width:100%;
+border-radius:10px;
+}
+
+.content{
+text-align:center;
+font-family:outfit;
+}
+
+.content h2{
+font-size:20px;
+line-height:28px;
+color:hsl(218, 44%, 22%);
+font-weight:700;
+}
+
+.content p{
+color:hsl(220, 15%, 55%);
+font-weight:400;
+font-size:15px;
+}
+
+.text{padding:0 20px;}
+
